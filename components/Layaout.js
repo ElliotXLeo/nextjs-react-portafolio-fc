@@ -1,5 +1,5 @@
-import { Fragment } from "react";
-import Navbar from "./Navbar";
+import { Fragment } from 'react';
+import Navbar from './Navbar';
 
 const Layaout = ({ children }) => {
   return (
