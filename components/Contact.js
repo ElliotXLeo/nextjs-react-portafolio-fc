@@ -1,6 +1,6 @@
 const Contact = ({ contact }) => {
   return (
-    <section className="row" id="contact">
+    <section className="row  animate__animated animate__fadeInUp" id="contact">
       <div className="col-md-12 my-2">
         <div className="card text-center bg-dark text-light">
           <div className="card-header">

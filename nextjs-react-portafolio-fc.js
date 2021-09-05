@@ -325,10 +325,10 @@ export const experiences = [
       'Testing de código en GeneXus, AS/400, HTML, CSS, JavaScript, Java, VB, SQL.',
       'Desarrollo de casos de prueba y ejecución de pruebas funcionales.'
     ],
-    main: 4
+    main: 1
   },
   {
-    id: 3,
+    id: 4,
     company: 'Stefanini It Solutions',
     position: 'Desarrollador GeneXus Junior',
     period: 'abril 2021, presente',

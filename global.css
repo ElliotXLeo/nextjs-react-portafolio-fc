@@ -165,3 +165,12 @@ body {
     justify-content: space-around;
   }
 }
+
+/* #nprogress .bar {
+  background: var(--gold) !important;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: var(--gold) !important;
+  border-left-color: var(--gold) !important;
+} */

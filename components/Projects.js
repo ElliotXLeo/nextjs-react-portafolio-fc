@@ -2,7 +2,7 @@ import Project from "./Project";
 
 const Projects = ({ projects }) => {
   return (
-    <section className="row">
+    <section className="row animate__animated animate__fadeInUp">
       <div className="col-md-12 my-2">
         <div className="card text-center bg-dark text-light">
           <div className="card-header">
@@ -10,7 +10,7 @@ const Projects = ({ projects }) => {
           </div>
           <div className="card-body">
             <div className="row">
-              {projects.map((element) => {
+              {[...projects].reverse().map((element) => {
                 if (element.main === 1) {
                   return (
                     <Project

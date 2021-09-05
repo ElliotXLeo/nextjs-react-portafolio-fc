@@ -8,7 +8,7 @@ const Experiences = ({ experiences }) => {
       </div>
       <div className="card-body">
         <div className="list-group">
-          {experiences.map((experience) => {
+          {[...experiences].reverse().map((experience) => {
             if (experience.main == 1) {
               return (
                 <Experience
