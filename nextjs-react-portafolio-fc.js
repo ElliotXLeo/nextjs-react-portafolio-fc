@@ -514,7 +514,7 @@ export const projects = [
     technologies: 'Next.js, React, JavaScript, CSS, HTML, Bootstrap, SweetAler2, Animate.css',
     about: 'Aplicación donde el profesional detalla lo más relevante de su carrera, como su perfil, habilidades, experiencia, proyectos realizados y formas de contactarlo. La data la consume de una API.',
     image: 'https://i.postimg.cc/dV2T2PJ7/nextjs-react-portafolio-fc.png',
-    urlDemo: '#',
+    urlDemo: 'https://nextjs-react-portafolio-fc.vercel.app',
     urlCode: 'https://github.com/ElliotXLeo/nextjs-react-portafolio-fc',
     main: 1
   }
@@ -552,7 +552,7 @@ export const contact = [
   {
     id: 4,
     name: 'Web Personal',
-    urlContact: '#profile',
+    urlContact: 'https://nextjs-react-portafolio-fc.vercel.app',
     urlImage: 'https://image.flaticon.com/icons/png/512/93/93618.png',
     main: 1
   },

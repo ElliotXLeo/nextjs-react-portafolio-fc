@@ -1,6 +1,6 @@
-# [Next.js React Portafolio](#) | [<img src="https://image.flaticon.com/icons/png/512/174/174857.png" height="20"/>](https://www.linkedin.com/in/elliotgaramendi/) | [<img src="https://image.flaticon.com/icons/png/512/733/733553.png" height="20"/>](https://github.com/ElliotXLeo) | [<img src="https://image.flaticon.com/icons/png/512/145/145802.png" height="20"/>](https://www.facebook.com/elliotgaramendi) | [<img src="https://image.flaticon.com/icons/png/512/1384/1384055.png" height="20"/>](https://api.whatsapp.com/send?phone=51997045329) | [<img src="https://image.flaticon.com/icons/png/512/975/975645.png" height="20"/>](https://elliotxleo.github.io/personal-web-responsive-ym/) | [<img src="https://image.flaticon.com/icons/png/512/5439/5439199.png" height="20"/>](mailto:elliotgaramendi@gmail.com) | 
+# [Next.js React Portafolio](https://nextjs-react-portafolio-fc.vercel.app) | [<img src="https://image.flaticon.com/icons/png/512/174/174857.png" height="20"/>](https://www.linkedin.com/in/elliotgaramendi/) | [<img src="https://image.flaticon.com/icons/png/512/733/733553.png" height="20"/>](https://github.com/ElliotXLeo) | [<img src="https://image.flaticon.com/icons/png/512/145/145802.png" height="20"/>](https://www.facebook.com/elliotgaramendi) | [<img src="https://image.flaticon.com/icons/png/512/1384/1384055.png" height="20"/>](https://api.whatsapp.com/send?phone=51997045329) | [<img src="https://image.flaticon.com/icons/png/512/975/975645.png" height="20"/>](https://nextjs-react-portafolio-fc.vercel.app) | [<img src="https://image.flaticon.com/icons/png/512/5439/5439199.png" height="20"/>](mailto:elliotgaramendi@gmail.com) | 
 
-[![nextjs-react-portafolio-fc](https://i.postimg.cc/dV2T2PJ7/nextjs-react-portafolio-fc.png)](#)
+[![nextjs-react-portafolio-fc](https://i.postimg.cc/dV2T2PJ7/nextjs-react-portafolio-fc.png)](https://nextjs-react-portafolio-fc.vercel.app)
 
 Aplicación donde el profesional detalla lo más relevante de su carrera, como su perfil, habilidades, experiencia, proyectos realizados y formas de contactarlo. La data la consume de una API. Por otro lado, la aplicación fue desarrollado con Next.js, React, JavaScript, CSS, HTML, Bootstrap, Axios y Animate.css.
 
@@ -27,6 +27,6 @@ Aplicación donde el profesional detalla lo más relevante de su carrera, como s
 
 - WhatsApp: https://api.whatsapp.com/send?phone=51997045329
 
-- Personal Web: https://elliotxleo.github.io/personal-web-responsive-ym/
+- Personal Web: https://nextjs-react-portafolio-fc.vercel.app
 
 - Correo: elliotgaramendi@gmail.com
