@@ -511,11 +511,11 @@ export const projects = [
     id: 14,
     title: 'Nextjs React | Portafolio',
     mainTechnology: 'Next.js',
-    technologies: 'Nextjs, React, JavaScript, CSS, HTML, Bootstrap, SweetAler2, Animate.css',
+    technologies: 'Next.js, React, JavaScript, CSS, HTML, Bootstrap, SweetAler2, Animate.css',
     about: 'Aplicación donde el profesional detalla lo más relevante de su carrera, como su perfil, habilidades, experiencia, proyectos realizados y formas de contactarlo. La data la consume de una API.',
-    image: 'https://i.imgur.com/o9SG9oO.png',
-    urlDemo: 'https://i.imgur.com/o9SG9oO.png',
-    urlCode: 'https://i.imgur.com/o9SG9oO.png',
+    image: 'https://i.postimg.cc/dV2T2PJ7/nextjs-react-portafolio-fc.png',
+    urlDemo: '#',
+    urlCode: 'https://github.com/ElliotXLeo/nextjs-react-portafolio-fc',
     main: 1
   }
 ];
