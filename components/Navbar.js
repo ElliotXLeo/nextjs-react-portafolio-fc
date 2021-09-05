@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid container">
         <Link href="/">
-          <a className="navbar-brand" >Next.js React</a>
+          <a className="navbar-brand" >Next.js React | Elliot Garamendi</a>
         </Link>
         <div className="" id="">
           <ul className="navbar-nav flex-row">

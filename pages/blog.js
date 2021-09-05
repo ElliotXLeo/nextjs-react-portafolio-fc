@@ -1,4 +1,4 @@
-import Layaout from "../components/Layaout";
+import Layaout from '../components/Layaout';
 
 const Blog = () => {
   return (

@@ -1,13 +1,22 @@
 import { Fragment } from 'react';
+import Footer from './Footer';
 import Navbar from './Navbar';
 
-const Layaout = ({ children }) => {
+const Layaout = ({ children, profile }) => {
   return (
     <Fragment>
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
+
       <main className="container my-4">
         {children}
       </main>
+
+      <Footer
+        profile={profile}
+      />
+
     </Fragment>
   );
 }
