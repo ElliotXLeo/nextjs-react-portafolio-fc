@@ -4,7 +4,7 @@ import { Fragment, useEffect } from 'react';
 import Footer from './Footer';
 import Navbar from './Navbar';
 
-const Layaout = ({ children, profile }) => {
+const Layaout = ({ children, profile, seeFooter = true }) => {
 
   const router = useRouter();
 
@@ -36,9 +36,14 @@ const Layaout = ({ children, profile }) => {
         {children}
       </main>
 
-      <Footer
-        profile={profile}
-      />
+      {
+        seeFooter ?
+          <Footer
+            profile={profile}
+          />
+          :
+          null
+      }
 
     </Fragment>
   );

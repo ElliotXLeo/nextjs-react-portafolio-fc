@@ -1,6 +1,7 @@
 export const profile = {
   id: 0,
   name: 'Elliot Garamendi',
+  user: 'ElliotXLeo',
   title: '👨‍💻Desarrollador👨‍💻 | 🌌Frontend🌌 | ⚛React⚛',
   mainStack: 'MERN',
   description: 'Estudiante de Ingeniería de Software perteneciente a los primeros puestos. Apasionado del autoaprendizaje con el deseo de iniciar y crecer en desarrollo web Frontend con la biblioteca React y con la visión de ser un desarrollador JavaScript FullStack.'

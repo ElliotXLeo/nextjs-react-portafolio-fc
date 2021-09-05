@@ -10,11 +10,6 @@ const Navbar = () => {
         <div className="" id="">
           <ul className="navbar-nav flex-row">
             <li className="nav-item mx-2">
-              <Link href="/blog">
-                <a className="nav-link active" aria-current="page" >Blog</a>
-              </Link>
-            </li>
-            <li className="nav-item mx-2">
               <Link href="/github">
                 <a className="nav-link">GitHub</a>
               </Link>

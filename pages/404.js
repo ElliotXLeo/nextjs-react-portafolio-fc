@@ -9,7 +9,7 @@ const custom404 = () => {
           <h2>Page not found</h2>
         </div>
         <Link href="/">
-          <a >Homepage</a>
+          <a>Homepage</a>
         </Link>
       </div>
     </div>

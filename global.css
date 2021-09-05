@@ -5,23 +5,29 @@
 }
 
 html {
-  --theme-color--inverse: white;
+  --theme-color-inverse: #ffffff;
+  --primary-color: #3ea1db;
+  --secondary-color: #5d34ec;
+  --text-color: #ffffff;
+  --text-color-inverse: #000000;
   --gold: #ffd700;
   scroll-behavior: smooth;
 }
 
 body {
-  background-image: linear-gradient(to right, #3ea1db, #5d34ec);
+  background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
   padding: 0;
   margin: 0;
 }
+
+/* Cards */
 
 .card {
   transition: all 0.5s;
 }
 
 .card:hover {
-  box-shadow: 0 0.25rem 0.5rem 0 white;
+  box-shadow: 0 0.25rem 0.5rem 0 var(--theme-color-inverse);
 }
 
 .over-flow-h {
@@ -39,6 +45,8 @@ body {
 .card-subtitle {
   color: var(--gold);
 }
+
+/* not found general route */
 
 #notfound {
   position: relative;
@@ -134,6 +142,8 @@ body {
   }
 }
 
+/* contact */
+
 .nav__list {
   list-style-type: none;
   padding: 0;
@@ -145,7 +155,7 @@ body {
 
 .nav__item {
   width: 10%;
-  background-color: var(--theme-color--inverse);
+  background-color: var(--theme-color-inverse);
   border-radius: 1rem;
   padding: 0.5em;
   margin: 0.5em;
@@ -153,7 +163,7 @@ body {
 }
 
 .nav__item:hover {
-  box-shadow: 0 0.25rem 0.5rem var(--theme-color--inverse);
+  box-shadow: 0 0.25rem 0.5rem var(--theme-color-inverse);
 }
 
 .nav__image {
@@ -166,6 +176,8 @@ body {
   }
 }
 
+/* nprogress bar */
+
 /* #nprogress .bar {
   background: var(--gold) !important;
 }
@@ -174,3 +186,95 @@ body {
   border-top-color: var(--gold) !important;
   border-left-color: var(--gold) !important;
 } */
+
+/* not found GitHub */
+
+#notfound-github {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound-github .notfound-github {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfound-github {
+  max-width: 854px;
+  width: 100%;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.notfound-github .notfound-github-404 {
+  height: 12rem;
+}
+
+.notfound-github .notfound-github-404 h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.notfound-github .notfound-github-404 h1>span {
+  display: inline-block;
+  width: 8rem;
+  height: 8rem;
+  background-image: url('/emoji.png');
+  background-size: cover;
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+  z-index: -1;
+}
+
+.notfound-github h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-color);
+  text-transform: upperca-inversese;
+}
+
+.notfound-github p {
+  color: var(--text-color);
+  font-family: 'Montserra-inverset', sans-serif;
+  font-weight: 300;
+}
+
+.notfound-github a {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  padding: 1em 2em;
+  font-weight: 700;
+  background-color: var(--gold);
+  color: var(--text-color-inverse);
+  border-radius: 3rem;
+  text-decoration: none;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound-github a:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 767px) {
+  .notfound-github .notfound-github-404 {
+    height: 8rem;
+  }
+  .notfound-github .notfound-github-404 h1 {
+    font-size: 6rem;
+  }
+  .notfound-github .notfound-github-404 h1>span {
+    width: 6rem;
+    height: 6rem;
+  }
+}
