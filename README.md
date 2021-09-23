@@ -2,7 +2,7 @@
 
 [![nextjs-react-portafolio-fc](https://i.postimg.cc/dV2T2PJ7/nextjs-react-portafolio-fc.png)](https://nextjs-react-portafolio-fc.vercel.app)
 
-Aplicación donde el profesional detalla lo más relevante de su carrera, como su perfil, habilidades, experiencia, proyectos realizados y formas de contactarlo. La data la consume de una API. Por otro lado, la aplicación fue desarrollado con Next.js, React, JavaScript, CSS, HTML, Bootstrap, Axios y Animate.css.
+Aplicación donde el profesional detalla lo más relevante de su carrera, como su perfil, habilidades, experiencia, proyectos realizados y formas de contactarlo. La data la consume de una API.
 
 ## Instalación
 - Ubicarse en la carpeta que contendrá el proyecto
@@ -16,7 +16,7 @@ Aplicación donde el profesional detalla lo más relevante de su carrera, como s
 ## Tecnologías usadas
 | Next.js | React | HTML | CSS | JavaScript | Bootstrap | Axios | Animate.css |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--vgehGKNF--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r7kj8y4dfyd1aw989edi.png" width="1000px"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" width="1000px"/> | <img src="https://javier-rodriguez.vercel.app/img/logos/html-5.svg" width="1000"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/1200px-CSS.3.svg.png" width="1000"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" width="1000"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png" width="1000px"/> | <img src="https://www.ma-no.org/cache/galleries/contents-2136/860-300/axios-logo.jpg" width="1000px"/> | <img src="https://animate.style/img/animatecss-opengraph.jpg" width="1000px"/> |
+| <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--vgehGKNF--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r7kj8y4dfyd1aw989edi.png" width="1000px"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" width="1000px"/> | <img src="https://javier-rodriguez.vercel.app/img/logos/html-5.svg" width="1000"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/1200px-CSS.3.svg.png" width="1000"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" width="1000"/> | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png" width="1000px"/> | <img src="https://mma.prnewswire.com/media/1517110/Axios_logo___RGB_Logo.jpg?p=twitter" width="1000px"/> | <img src="https://animate.style/img/animatecss-opengraph.jpg" width="1000px"/> |
 
 ## Redes sociales
 - LinkedIn: https://www.linkedin.com/in/elliotgaramendi/

@@ -1,55 +1,81 @@
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 import Contact from '../components/Contact';
 import Experiences from '../components/Experiences';
 import Layaout from '../components/Layaout';
 import Profile from '../components/Profile';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
-import { profile, skills, experiences, projects, contact } from '../nextjs-react-portafolio-fc';
+import Spinner from '../components/Spinner';
 
 const Index = () => {
+  
+  const [data, setData] = useState({});
+  
+  const consultarApi = async () => {
+    try {
+      const res = await axios({
+        method: 'GET',
+        url: `https://elliotxleo.github.io/api-publica/json/portafolio-elliot.json`
+      });
+      const data = res.data;
+      setData(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  
+  useEffect(() => {
+    consultarApi();
+  }, []);
+  
+  const { profile, skills, experiences, projects, contact } = data;
 
-  // experiences.reverse();
-  // projects.reverse();
-  experiences;
-  projects;
+  if (Object.keys(data).length === 0) {
+    return (
+      <Spinner />
+    );
+  } else {
+    return (
 
-  return (
-    <Layaout
-      profile={profile}
-    >
-
-      <Profile
+      <Layaout
         profile={profile}
-      />
+      >
 
-      <section className="row animate__animated animate__fadeInUp">
-        <div className="col-md-12 my-2">
-          <div className="card text-center bg-dark text-light">
-            <div className="row">
+        <Profile
+          profile={profile}
+        />
 
-              <Skills
-                skills={skills}
-              />
+        <section className="row animate__animated animate__fadeInUp">
+          <div className="col-md-12 my-2">
+            <div className="card text-center bg-dark text-light">
+              <div className="row">
 
-              <Experiences
-                experiences={experiences}
-              />
+                <Skills
+                  skills={skills}
+                />
 
+                <Experiences
+                  experiences={experiences}
+                />
+
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <Projects
-        projects={projects}
-      />
+        <Projects
+          projects={projects}
+        />
 
-      <Contact
-        contact={contact}
-      />
+        <Contact
+          contact={contact}
+        />
 
-    </Layaout>
-  );
+      </Layaout>
+    );
+  }
+
 };
 
 export default Index;

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark animate__animated animate__fadeInUp">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid container">
         <Link href="/">
           <a className="navbar-brand" >Next.js React | Elliot Garamendi</a>

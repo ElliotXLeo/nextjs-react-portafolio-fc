@@ -64,24 +64,6 @@ export async function getServerSideProps() {
       statusCode: statusCode
     }
   }
-
-  // try {
-  //   const res = await axios({
-  //     method: 'GET',
-  //     url: `https://api.github.com/users/${profile.user}`
-  //   });
-  //   const statusCode = res.status === 200;
-  //   const data = res.data;
-  //   return {
-  //     props: {
-  //       user: data,
-  //       statusCode: statusCode
-  //     }
-  //   }
-  // } catch (error) {
-  //   console.log(error)
-  // }
-
 }
 
 export default GitHub;
