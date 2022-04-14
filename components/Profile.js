@@ -1,6 +1,6 @@
 const Profile = ({ profile }) => {
   return (
-    <article className="row animate__animated animate__fadeInUp" id="profile">
+    <article className="row mt-5 animate__animated animate__fadeInUp" id="profile">
       <div className="col-md-12 my-2">
         <div className="card text-center bg-dark text-light">
           <div className="card-body">
@@ -17,7 +17,7 @@ const Profile = ({ profile }) => {
             </div>
           </div>
           <div className="card-footer">
-            <a href="#contact" className="btn btn-primary mx-2" rel="noreferrer">Hire Me</a>
+            <a href="#contacts" className="btn btn-primary mx-2" rel="noreferrer">Hire Me</a>
           </div>
         </div>
       </div>

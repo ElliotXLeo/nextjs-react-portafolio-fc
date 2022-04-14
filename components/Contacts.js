@@ -1,4 +1,4 @@
-const Contact = ({ contacts }) => {
+const Contacts = ({ contacts }) => {
   return (
     <section className="row  animate__animated animate__fadeInUp" id="contacts">
       <div className="col-md-12 my-2">
@@ -31,4 +31,4 @@ const Contact = ({ contacts }) => {
   );
 }
 
-export default Contact;
+export default Contacts;

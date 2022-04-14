@@ -21,7 +21,7 @@ const Experiences = ({ experiences }) => {
         </div>
       </div>
       <div className="card-footer">
-        <a href="#contact" className="btn btn-primary mx-2" rel="noreferrer">Hire Me</a>
+        <a href="#contacts" className="btn btn-primary mx-2" rel="noreferrer">Hire Me</a>
       </div>
     </section>
   );

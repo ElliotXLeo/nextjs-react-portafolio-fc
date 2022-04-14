@@ -13,7 +13,7 @@ const Layaout = ({ children, profile, seeFooter = true }) => {
         <Navbar />
       </header>
 
-      <main className="container my-4">
+      <main className="container my-4 pt-1">
         {children}
       </main>
 

@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import Contact from '../components/Contact';
+import Contacts from '../components/Contacts';
 import Experiences from '../components/Experiences';
 import Layaout from '../components/Layaout';
 import Profile from '../components/Profile';
@@ -68,7 +68,7 @@ const Index = () => {
           projects={projects}
         />
 
-        <Contact
+        <Contacts
           contacts={contacts}
         />
 

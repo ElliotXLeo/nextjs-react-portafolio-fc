@@ -1,7 +1,7 @@
 const Experience = ({ experience }) => {
   const { id, company, position, period, activities } = experience;
   return (
-    <a href="#contact" className="list-group-item list-group-item-action" aria-current="true" key={`Experience${id}`}>
+    <a href="#contacts" className="list-group-item list-group-item-action" aria-current="true" key={`Experience${id}`}>
       <div className="d-flex w-100 justify-content-between text-primary">
         <h5 className="mb-1">{company}</h5>
         <small>{period}</small>
