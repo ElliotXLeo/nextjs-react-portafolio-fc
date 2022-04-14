@@ -1,16 +1,16 @@
-const Contact = ({ contact }) => {
+const Contact = ({ contacts }) => {
   return (
-    <section className="row  animate__animated animate__fadeInUp" id="contact">
+    <section className="row  animate__animated animate__fadeInUp" id="contacts">
       <div className="col-md-12 my-2">
         <div className="card text-center bg-dark text-light">
           <div className="card-header">
-            <h2>💻Contact💻</h2>
+            <h2>💻Contacts💻</h2>
           </div>
           <div className="card-body">
-            <div className="row contact">
+            <div className="row contacts">
               <nav className="nav">
                 <ul className="nav__list">
-                  {contact.map((element) => {
+                  {contacts.map((element) => {
                     if (element.main == 1) {
                       return (
                         <li className="nav__item" key={element.id}>

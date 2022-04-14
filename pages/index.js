@@ -29,7 +29,7 @@ const Index = () => {
     consultarApi();
   }, []);
   
-  const { profile, skills, experiences, projects, contact } = data;
+  const { profile, skills, experiences, projects, contacts } = data;
 
   if (Object.keys(data).length === 0) {
     return (
@@ -69,7 +69,7 @@ const Index = () => {
         />
 
         <Contact
-          contact={contact}
+          contacts={contacts}
         />
 
       </Layaout>
