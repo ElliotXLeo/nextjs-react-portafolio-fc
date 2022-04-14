@@ -6,7 +6,7 @@ const Profile = ({ profile }) => {
           <div className="card-body">
             <div className="row align-items-center">
               <div className="col-md-3">
-                <img src="elliotgaramendi-2.jpg" alt="Elliot Garamendi" className="img-fluid rounded-circle" />
+                <img src={profile.urlPhoto} alt={profile.shortName} className="img-fluid rounded-circle" />
               </div>
               <div className="col-md-9">
                 <h1 className="card-title">{profile.name}</h1>
