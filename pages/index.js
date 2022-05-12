@@ -16,7 +16,7 @@ const Index = () => {
     try {
       const res = await axios({
         method: 'GET',
-        url: `https://elliotxleo.github.io/api-publica/json/portafolio-elliot.json`
+        url: `https://elliotxleo.github.io/api-json-public/json/portafolio-elliot.json`
       });
       const data = res.data;
       setData(data);
